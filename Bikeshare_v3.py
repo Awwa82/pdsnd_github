@@ -231,6 +231,7 @@ def user_stats(df, city):
     #Ask user to view 5 rows of trip info?
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n').lower()
     start_loc = 0
+    #Repeat asking until user chooses 'no'
     while view_data.lower() != 'no':
         print(df.iloc[start_loc:start_loc+5])
         start_loc += 5
