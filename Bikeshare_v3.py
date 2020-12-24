@@ -241,9 +241,12 @@ def main():
     while True:
 
         try:
+            #Retreive user filters..
             city, month, day = get_filters()
+            #Load data per user selection..
             df = load_data(city, month, day)
 
+            #Display time, station, trip duration and users statistics..
             time_stats(df)
             station_stats(df)
             trip_duration_stats(df)
