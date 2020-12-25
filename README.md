@@ -1,14 +1,29 @@
-### Date created - 24/12/2020
-Include the date you created this project and README file.
 
-### Project Title - Post your Work on GitHub
-Replace the Project Title
+__Date Created: 24/12/2020__
 
-### Description - Final Nanodegree Project =)
-Describe what your project is about and what it does
+<h2>
+	Bikeshare Statistics Python/GitHub Project
+</h2>
 
-### Files used - Bikeshare.py, chicago.csv, new_york_city.csv, washington.csv
-Include the files used
+This is the final project of this Nanodegree. It asks user to specify a city, month, and day to analyze the Bikeshare data..
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
+_Files used as sample while coding:_ 
+
+* Bikeshare_v3.py
+* chicago.csv
+* new_york_city.csv
+* washington.csvs
+
+<h2>
+	Credits
+</h2>
+
+_Inspired by the following repos:_ :">
+
+* [udacity/pdsnd_github][1]
+* [atom/markdown-preview][2]
+
+[1]: https://github.com/udacity/pdsnd_github
+[2]: https://github.com/atom/markdown-preview
+
